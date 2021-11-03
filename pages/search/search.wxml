@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+
+<view class="content">
+	<image class='background' src="../../image/background2.jpg"       mode="aspectFill"></image>
+</view>
+<view class="page-body">
+    <view class="cells__title">  </view>
+    <view class="kuangkuang">
+      <view class="cell_input">
+          <input class="weui-input" placeholder="search"/>
+    </view>
+  </view>
+</view>
+<text class="huanYing">欢迎</text>

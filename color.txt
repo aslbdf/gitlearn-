@@ -1,0 +1,15 @@
+#E1EED2 白
+#DBD0A7 米白
+#E69B03 橘
+#D1494E 粉红
+#123553 深蓝
+#017E92 yanse
+  "tabBar": {
+    "color": "#E69B03",
+    "selectedColor": "#D1494E",
+    "backgroundColor": "#DBD0A7",
+    "borderStyle": "white",
+    "list": [],
+    "position": "bottom",
+    "custom": false
+  },

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/index/index",
+    "pages/Mp4/Mp4",
+    "pages/code/code"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#E1EED2",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "OS assistant",
+    
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "backgroundColor": "#E1EED2",
+    "selectedColor": "#E69B03",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "image/scan.png",
+        "selectedIconPath": "image/scan.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
