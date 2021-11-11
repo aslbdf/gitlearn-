@@ -1,14 +1,9 @@
 /* pages/search/search.wxss */
 page{
   height: 100%;
+  background-color: #EBEFF2;
 }
-.background {
-  width: 100%;
-  height: 100%;
-  position:absolute; 
-  background-size:100% 100%;
-  z-index: -1;
-}
+
 .page-body .cells__title{
   justify-content: center;
   height: 200PX;
@@ -17,27 +12,33 @@ page{
 }
 .cell_input{
   display: flex;
-  position: relative;
-  top: 150px;
-  left: 37.5px;
-  height: 45px;
-  width: 300px;
-  border-radius:25px;
-  background-color: #DBD0A7;
-  font-size: x-large;
-  font-weight: 600;
+  height: 80rpx;
+  width: 600rpx;
+  border-radius:20rpx;
+  background-color: #A3568E;
   align-items: center;
   text-align: center;
+  box-shadow:5rpx 5rpx 5rpx #CdCfCf;
+}
+.fontSearch{
+  color:#DBF6D3;
+  font-size: x-large;
+  font-weight: 400;
+}
+.iconfont .icon-sousuo{
+  width: 90rpx;
+  height: 90rpx;
+  display: block;
+  color: #DBF6D3;
+  box-sizing: border-box;
+  position: relative;
+  left: 611rpx;
+  top: 669rpx;
+  font-size: x-large;
+  font-weight: 400;
 }
 
-.huanYing{
-  color: #E69B03;
-  font-size: 100px;
-  font-style: ;
-  font-weight: 500px;
-  text-align: center;
-  position: relative;
-  left: 80px;
-  top: -50px;
+.icon-shoucang:before {
+  content: "\e60f";
 }
 

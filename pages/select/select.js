@@ -1,13 +1,20 @@
-// pages/code/code.js
+// pages/select/select.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    learn:{}
 
   },
 
+
+  learn(){
+    wx.navigateTo({
+      url: '../learn/learn'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

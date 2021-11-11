@@ -1,13 +1,17 @@
 // pages/search/search.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
 
+  data: {
+      movies:[  
+      {url:"../../image/p1.jpg",wenzi:"Lesson 1"},  
+      {url:"../../image/p2.jpg",wenzi:"Lesson 2"}, 
+      ]
   },
 
+  result_page:function(){
+    url:"pages/result/result"
+  },
   /**
    * 生命周期函数--监听页面加载
    */

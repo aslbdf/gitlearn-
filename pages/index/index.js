@@ -4,17 +4,24 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName'), // 如需尝试获取用户信息可改为false
+    favorite:{},
+    history:{}
+  },
+  favorite(){
+    wx.navigateTo({
+      url: '../favorite/favorite'
+    })
   },
   // 事件处理函数
-  bindViewTap() {
+  
+  history() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../history/history'
     })
   },
   onLoad() {

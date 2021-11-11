@@ -1,5 +1,0 @@
-<!--pages/Mp4/Mp4.wxml-->
-<view class="content">
-	<image class='background' src="../../image/background.jpg"       mode="aspectFill"></image>
-</view>
-<text>pages/Mp4/Mp4.wxml</text>
